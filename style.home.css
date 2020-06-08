@@ -59,6 +59,7 @@ p {
 }
 .email-link {
     color: black;
+    display: inline;
 }
 .p-2 {
     background-color: whitesmoke;
