@@ -1,0 +1,89 @@
+body {
+    background: gray;
+    background-image: url("../Images/ppl\ on\ laptop.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1024px;
+    width: 1024px;
+    padding-right: 100px;    
+    padding-left: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.links-for-home a {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.575);
+    display:inline-block;
+    margin: 1px;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.footer-a-list a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(245, 245, 245, 0.548); 
+}
+.footer-a-list a:hover {
+    background-color: red;
+    text-decoration: underline;
+}
+.fb-link a {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(245, 245, 245, 0.548); 
+}
+.fb-link a:hover {
+    background-color: red;
+    text-decoration: underline;
+}
+.email-link a {
+    text-decoration: none;
+    color: black;  
+}
+p {
+    background-color: rgba(245, 245, 245, 0.548); 
+}
+.email-highlight{
+    background-color: rgba(255, 255, 0, 0.644);
+}
+.copyright {
+    background-color: rgba(245, 245, 245, 0.548); 
+}
+.email-link a:hover{
+    background-color: red;
+    text-decoration: underline;
+}
+header {
+    background-color: black;
+    background-image: url("../Images/Painted\ Logo\ of\ World\ Class\ Comics\ Publishing.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;    
+}
+.links-for-home {
+    background-color: rgba(0, 0, 0, 0.849);
+    display: inline-block;
+    margin: 1px;      
+}
+.main-title-text h1.main-title {
+    background: rgba(255, 0, 0, 0.555);
+    font-size: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.first-header {
+    background-color: rgba(255, 255, 0, 0.603);
+    display: inline;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
