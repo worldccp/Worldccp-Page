@@ -12,7 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .main-title-text h1.main-title {
-    background: red;
+    background: rgba(255, 0, 0, 0.568);
     font-size: 80px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -72,6 +72,8 @@ p {
 .b-logo {
     background-color: whitesmoke;
     display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
