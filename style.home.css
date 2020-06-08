@@ -65,11 +65,11 @@ p {
     background-color: whitesmoke;
     display: inline;
 }
-.footer-links {
+.footer-links a {
     background-color: black;
     display: inline;
 }
-.b-logo {
+footer .b-logo {
     background-color: whitesmoke;
     display: inline;
 }
