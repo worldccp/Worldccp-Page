@@ -50,6 +50,11 @@ header {
     display: inline-block;
     margin: 1px;      
 }
+p {
+    color: whitesmoke;
+    display: inline;
+}
+
 
 
 
