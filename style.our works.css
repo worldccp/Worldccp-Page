@@ -47,11 +47,11 @@ header {
 .moricka-pic {
     background-color: red;
     background-image: url("moricka-bio-pic.jpg");
-    background-size: 300px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    width:300px;
+    width:400px;
     display: inline-block;
-    height: 170px;
+    height: 300px;
     position: relative;
     text-indent: -99999999999px;
 }
