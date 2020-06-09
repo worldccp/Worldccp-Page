@@ -44,3 +44,16 @@ header {
     margin: 10px;
     position: relative;
 }
+.moricka-pic {
+    .moricka-image {
+    background-color: red;
+    background-image: url("moricka-bio-pic.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width:300px;
+    display: inline-block;
+    height: 170px;
+    position: relative;
+    text-indent: -99999999999px;
+}
+}
