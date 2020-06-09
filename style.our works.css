@@ -45,7 +45,6 @@ header {
     position: relative;
 }
 .moricka-pic {
-    .moricka-image {
     background-color: red;
     background-image: url("moricka-bio-pic.jpg");
     background-size: 300px;
@@ -55,5 +54,4 @@ header {
     height: 170px;
     position: relative;
     text-indent: -99999999999px;
-}
 }
