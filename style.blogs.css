@@ -38,7 +38,7 @@ header {
     margin: 1px;    
     
 }
-.main-title-text h1.main-title {
+.main-title-text h2.main-title {
     background: rgba(255, 0, 0, 0.548);
     font-size: 80px;
     margin-top: 5px;
