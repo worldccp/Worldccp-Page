@@ -3,6 +3,7 @@ body {
     background-image: url("/Images/man looking up.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 1024;
     width: 1024px;
     padding-right: 100px;    
     padding-left: 100px;
