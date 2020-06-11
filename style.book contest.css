@@ -47,5 +47,16 @@ header {
     margin: 10px;
     position: relative;
 }
-
-    
+body .top-banner {
+    background-color: red;
+    display: inline;
+}
+div .book-contest-bar p a {
+    display: block;
+    width: auto;
+    color:yellow;
+}
+.home {
+    display: block;
+    color: red;
+}
