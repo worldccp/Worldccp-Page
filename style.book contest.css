@@ -51,3 +51,7 @@ header {
     background-color: rgba(0, 128, 0, 0.76);
     display: inline-block;
 }
+.home {
+    background-color: red;
+    display: inline-block;
+}
