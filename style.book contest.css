@@ -56,9 +56,8 @@ strong {
     color: yellow;
     display: inline-block;
 }
-.home .book-contest-bar a{
-    background-color: red;
-    color: yellow;
-    display: inline-block;
+.home {
+    margin-top: 10px;
+    margin: 10px;
 }
 
