@@ -51,8 +51,14 @@ body .top-banner {
     background-color: red;
     display: inline;
 }
-.banner {
+strong {
     background-color: red;
     color: yellow;
     display: inline-block;
 }
+.home .book-contest-bar .banner a{
+    background-color: red;
+    color: yellow;
+    display: inline-block;
+}
+
