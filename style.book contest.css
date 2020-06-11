@@ -47,7 +47,7 @@ header {
     margin: 10px;
     position: relative;
 }
-.green .green2 a {
+.green .green2 {
     background-color: green;
     display: inline-block;
 }
