@@ -60,12 +60,13 @@ p {
     color: white;
 }
 .p-2 a a:hoover {
-    color:red;
-}
-.p-2 a {
-    background-color: black;
+    background-color:red;
+    background-color: rgba(0, 0, 0, 0.698);
     display: inline-block;
 }
+
+
+
 .p-2 {
     background-color: rgba(0, 0, 0, 0.698);
     display: inline-block;
