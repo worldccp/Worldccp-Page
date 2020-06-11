@@ -49,5 +49,5 @@ header {
 }
 .green-bottom-banner a {
     background-color: green;
-    display: block;
+    display: inline-block;
 }
