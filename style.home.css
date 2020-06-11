@@ -51,18 +51,18 @@ header {
     margin: 1px;      
 }
 p {
-    background-color: rgba(245, 245, 245, 0.527);
+    background-color: rgba(0, 0, 0, 0.698);
     display: inline-block;
 }
 .Worldccp-link {
-    color: black;
+    color: white;
 }
 .p-2 a {
     background-color: black;
     display: inline-block;
 }
 .p-2 {
-    background-color: rgba(245, 245, 245, 0.527);
+    background-color: rgba(0, 0, 0, 0.698);
     display: inline-block;
 }
 .footer-links {
@@ -70,10 +70,9 @@ p {
     display: inline-block;
 }
 .b-logo {
-    background-color: rgba(245, 245, 245, 0.527);
+    background-color: rgba(0, 0, 0, 0.698);
     display: inline-block;   
 }
-
 
 /*
 background-size: 100%;
