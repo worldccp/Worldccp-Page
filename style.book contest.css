@@ -47,3 +47,8 @@ header {
     margin: 10px;
     position: relative;
 }
+.top-banner {
+    background-color: red;
+    display: inline-block;
+}
+    
