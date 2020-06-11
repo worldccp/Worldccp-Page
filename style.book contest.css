@@ -49,6 +49,6 @@ header {
 }
 .top-banner {
     background-color: red;
-    display: inline-block;
+    display: inline;
 }
     
