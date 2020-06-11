@@ -47,17 +47,4 @@ header {
     margin: 10px;
     position: relative;
 }
-body .top-banner {
-    background-color: red;
-    display: inline;
-}
-strong {
-    background-color: red;
-    color: yellow;
-    display: inline-block;
-}
-.home {
-    margin-top: 10px;
-    margin: 10px;
-}
 
