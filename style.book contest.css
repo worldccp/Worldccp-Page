@@ -47,7 +47,7 @@ header {
     margin: 10px;
     position: relative;
 }
-body .top-banner {
+.top-banner {
     background-color: red;
     display: inline-block;
 }
