@@ -62,7 +62,6 @@ p {
 .p-2 a {
     background-color: black;
     display: inline-block;
-    color: white;
 }
 .p-2 {
     background-color: rgba(0, 0, 0, 0.698);
