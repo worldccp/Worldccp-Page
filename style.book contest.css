@@ -47,7 +47,7 @@ header {
     margin: 10px;
     position: relative;
 }
-.green-bottom-banner {
+.green-bottom-banner a {
     background-color: limegreen;
     display: inline-block;
 }
