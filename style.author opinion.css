@@ -1,3 +1,4 @@
+
 body {
     background-color: gray;
     background-image: url("/Images/spotlight\ on\ mic.jpg");
@@ -74,6 +75,12 @@ p {
     height: 170px;
     position: relative;
     text-indent: -999999999px;
+}
+.First-Header {
+        background-color: whitesmoke;
+}
+.Recent-Header {
+    background-color: whitesmoke;
 }
 /* This is where I might put some Google Ads or Ads from a sponsor.*/
 
