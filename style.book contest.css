@@ -47,7 +47,7 @@ header {
     margin: 10px;
     position: relative;
 }
-footer .green .green2 .green3 {
+.green .green2 .green3 {
     background-color: green;
     display: inline-block;
 }
