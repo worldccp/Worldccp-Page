@@ -48,6 +48,6 @@ header {
     position: relative;
 }
 .green .green2 {
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.76);
     display: inline-block;
 }
