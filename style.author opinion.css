@@ -76,11 +76,11 @@ p {
     position: relative;
     text-indent: -999999999px;
 }
-.First-Header {
-        background-color: whitesmoke;
+.First-Article {
+    background-color: rgba(245, 245, 245, 0.514);
 }
 .Recent-Header {
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.514);
 }
 /* This is where I might put some Google Ads or Ads from a sponsor.*/
 
