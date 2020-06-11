@@ -66,8 +66,7 @@ p {
 .p-2 {
     background-color: rgba(0, 0, 0, 0.698);
     display: inline-block;
-    color: white;
-}
+ }
 .footer-links {
     background-color: rgba(0, 0, 0, 0.575);
     display: inline-block;
