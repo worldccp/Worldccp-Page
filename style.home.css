@@ -59,6 +59,9 @@ p {
 .Worldccp-link {
     color: white;
 }
+.p-2 a a:hoover {
+    color:red;
+}
 .p-2 a {
     background-color: black;
     display: inline-block;
