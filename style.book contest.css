@@ -51,12 +51,7 @@ body .top-banner {
     background-color: red;
     display: inline;
 }
-.banner {
-    background-color: red;
-    color: yellow;
-    display: inline-block;
-}
-.banner-2 {
+.banner b a {
     background-color: red;
     color: yellow;
     display: inline-block;
