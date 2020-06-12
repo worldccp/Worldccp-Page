@@ -60,9 +60,9 @@ header {
 .Sons-of-Roark-Ad {
     background-color: red;
     background-image: url("../Images/Book Cover Sons of Roark.png");
-    background-size: 400px;
+    background-size: 800px;
     background-repeat: no-repeat;
-    width:400px;
+    width:800px;
     display: inline-block;
     height: 170px;
     position: relative;
