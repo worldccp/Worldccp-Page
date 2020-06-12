@@ -27,8 +27,8 @@ header {
     width: 680;
     padding-top: 700px;
     padding-bottom: 700px;
-    text-indent: 9999999999999999999999;
-    text-align: left;
+    text-indent: -999999999999999999999999999999999;
+    text-align: center;
 }
 ul {
     list-style: none;
