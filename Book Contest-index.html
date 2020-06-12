@@ -13,26 +13,14 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Worldccp Cash Prize $1000 | Book Writing Contest </title>
-    <meta name="description" content="World Class Comics is hosting a Book Writing Contest, Win a Prize of $1000 cash! To register just      click registration fee is $20 to enter. At least half of the Book needs to be finished.">
-
-    <link rel="stylesheet" href="style.book contest.css" />
+    <title>Worldccp Book Writing Contest | $1,000 Cash Winner </title>
+    <meta name="description" content="World Class Comics Book Writing Contest, Prize of $1,000 cash! $20 Registration fee to enter. Guidelines: Any Genre, 150-300 Pages, Original Content, Not already Published.">
+    
+    <link rel="stylesheet" href="style.author opinion.css" />
 
 </head>
 
-<body class="home" style="position: relative; min-height: 100%; top: 0px;">
-    <div class="book-contest-bar">
-          <p>
-            <a href="#" title="Win Book Contest Cash Prize of $1000 Registration Fee is $20 Deadline November 30th 2020">
-                <i class="far fa-exclamation-circle">
-                  
-                </i>
-                <strong>Win Cash Prize of $1000 Registration Fee is $20 Deadline November 30th 2020</strong>
-             </a>
-        </p>
-       
-    </div>
- <! -- OU Search Ignore Start Here -->   
+<body>
     <header>
             <nav>
                     <ul class="links for home"> 
@@ -51,57 +39,80 @@
                         <a href="World Class Sports-index.html">World Class Sports</a>      
                     </ul>    
             </nav>           
-            <h1 class="first-header">$1,000 CASH PRIZE FOR THE BEST BOOK!</h1>   
+            <h1 class="first-header">$1,000 Cash for the Best Book!</h1>   
     </header>                   
 
     <section class="main-title-text">
-        <h2 class="main-title">$1,000 CASH PRIZE FOR THE BEST BOOK!</h2>
-        <p> Read World Class Comic's blog posts on how to self-publish your comic book, book novel, or poetry book. 
-            Learn tips and tricks on how to traditionally publish: comic books, poetry books, or a book novel. View blogs by our authors, poets, and comic authors covering all the latest news on comic books, poetry books, and book novels. 
-            Dive deep into action with exclusive videos of their writing process and cool "how to" tips and tricks videos. Join the action on any discussion or information published on the page by creating an account and commenting your thoughts on a topic. 
-            Unfamiliar with blogs and blog posting... don't worry we got you covered, just click <a href="https://en.wikipedia.org/wiki/Blog" target="_blank">here</a> to learn more.
-        </p>
+        <h2 class="main-title">$1,000 Cash for the Best Book!</h2>
+        <p> World Class Comics is throwing a Book Contest to support the starving artist called Authors. Guidelines for submission: Any Genre, Amatuer and New Writers are welcome to apply, At least be 150-300 Pages long, Original Content, and Not already Published.
+            Entry Fees are payable via Paypal and Debit. Money orders made out to World Class Comics Publishing are accepted. Credit Cards or Checks are not accepted.  <a href="mailto:worldccomics@gmail.com?Subject=Book Contest Registration" target="_blank">Register Now</a> if you wish to enter.</p>
+
+            <div id="paypal-button-container"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'pay',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '20'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
+
     </section>
 
 
     
     <section>
         <div class=" footer-banner">
-             <a href="mailto:worldccomics@gmail.com?Subject=Book Submission" target="_blank">Register Now</a> to participate in the Book Contest.
+             <a href="mailto:worldccomics@gmail.com?Subject=Book Submission" target="_blank">Email us</a> your book
+             to submit it for review to be published!
         </div>
     </section>
-  
-     <main> 
-                 <h2>Sons of Roark Manga $2</h2>
-          
-    </main>
-
-    <aside>
-         <h class="Sons-of-Roark-Ad"><a href="../Images/Image of Tokido from Sons of Roark Manga.jpg" >jjjj</a> </h>
-         <p>Aequitas, Veredai, Zorgan, and Tokido are descendants of the Hybrid Clan.Their parents gave their lives trying to protect their sons from the Hybrid Clan. 
-
-The escape pods they were sent in crash landed on Earth in 2 feuding societies. Aequitas and Veredai are in the Rundown and Zorgan and Tokido are in High Society. 
-
-After landing on Earth, each pair of brothers believe the other pair of brothers are lost in outer space or deceased. 
-
-Now on Earth, each pair of brothers must learn how to survive in the two feuding societies until they one day meet again. This seems rather imposing considering how each society hates anyone that comes from the other society. How or will the brothers reunite, and if they do… will their perspective communities turn on them or will the Hybrid Clan learn of their existence and come for them again?
-       </p>
-       <h2 class="get-copy"> <a href="https://books.google.com/books/about?id=g6PGDwAAQBAJ&hl=en" target="_blank">Get a Copy!</a>
-       </h2>
-           
-       </aside>
+    <main> 
+        <h2>World Class Blogs Recent Article</h2>
+        <h2>Recent Article</h2>
+        <p>Here is a short excerpt on my most recent article called creating good writing habits. 
+         To read more <a href="blogs/article.template.html">Click here.</a></p>
+        <h2>2nd Recent Article</h2>
+        <p>This is my second most recent article on practicing monogomy in your relationship.
+           This is a short excerpt about why some relationships are doomed to fail and why some always work. 
+           To read more <a href="blogs/2-article.template.html">click here.</a></p>
     
-</body>  
+    
+    </main>
+    
+    <aside>
+        <h3>Ads</h3>
+        <p class="Fake-Mock-Ad"><a href="../Images/mock ad.jpg" >Fake Mock Ad </a> 
+        </p>    
+        <h3>Contact Email:</h3>
+        <a href="mailto:worldccomics@gmail.com">To contact me click here!</a>
+        <p>Please send me your suggestions and thoughts.</p>
+        <h3>Archives</h3>
+        <a href="archives/january-2019.html">January 2019</a>
+        <a href="archives/december-2019.html"> December 2019</a>
+    </aside>
+    
     <footer>
-        
-        <section class="green"> 
-            <p class="green2">
-              <a href="Illustration Contest-index.html" target="_blank">Illustration Contest Win $500 Cash Prize - Registration Fee $10 - Deadline November 30th 2020</a> 
-
-             </p>
-        </section>
-        
         <nav>
+               
             <section>
                     <a href="https://www.youtube.com/channel/UCUWwmvne2SMIL6zH9i7g2KA?view_as=subscriber"
                                 target="_blank">Youtube</a>
@@ -120,11 +131,11 @@ Now on Earth, each pair of brothers must learn how to survive in the two feuding
             <h class="copyright">World Class Comics LLC. - Copyright &copy; 2018.</h>
 
         </nav>
-             
+
     </footer>
 
 
 
-
+</body>
 
 </html>
