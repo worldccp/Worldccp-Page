@@ -22,6 +22,7 @@ header {
     background-image: url("Images/Book Cover Sons of Roark.png");
     background-size: 100%;
     background-position: center;
+    image: no-repeat;
     height: 680;
     width: 680;
     padding-top: 700px;
