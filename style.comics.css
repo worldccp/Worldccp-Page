@@ -1,9 +1,31 @@
 body {
     background: gray;
+    background-image: url("../Images/comic book open.jpg");
+    background-size: 100%;
+    image: repeat-y;
     width: 1024px;
     padding-right: 100px;    
     padding-left: 100px;
     text-align: center;
+}
+header {
+    background-color: black;
+    background-image: url("../Images/Painted\ Logo\ of\ World\ Class\ Comics\ Publishing.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;    
+}
+.Sons-of-Roark-Ad {
+    background-color: black;
+    background-image: url("Images/Book Cover Sons of Roark.png");
+    background-size: 100%;
+    background-position: left;
+    height: 700;
+    width: 700;
+    text-indent: -999999999;
+    text-align: left;
 }
 ul {
     list-style: none;
@@ -16,15 +38,6 @@ a {
 a:hover {
     background-color: red;
     text-decoration: underline;
-}
-header {
-    background-color: black;
-    background-image: url("../Images/Painted\ Logo\ of\ World\ Class\ Comics\ Publishing.jpg");
-    background-size: 100%;
-    background-position: center;
-    height: 400px;
-    padding: 20px;
-    text-align: center;    
 }
 .links.for.home {
     background-color: rgba(0, 0, 0, 0.849);
