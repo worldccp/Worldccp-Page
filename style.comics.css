@@ -47,7 +47,7 @@ a:hover {
     display: inline-block;
     margin: 1px;      
 }
-.main-title-text h2.main-title {
+.main-title-text .main-title {
     background: red;
     font-size: 80px;
     margin-top: 5px;
@@ -59,4 +59,22 @@ a:hover {
     border-radius: 10px;
     margin: 10px;
     position: relative;
+}
+.main-title {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 40px;
+}
+.description {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 15px;
+}
+.email {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: limegreen;
+    display: inline-block;
+    font-size: 15px; 
 }
