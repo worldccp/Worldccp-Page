@@ -59,10 +59,10 @@ header {
 }
 .Sons-of-Roark-Ad {
     background-color: red;
-    background-image: url("../Images/Image of Tokido from Sons of Roark Manga.jpg");
-    background-size: 300px;
+    background-image: url("../Images/Book Cover Sons of Roark.png");
+    background-size: 400px;
     background-repeat: no-repeat;
-    width:300px;
+    width:400px;
     display: inline-block;
     height: 170px;
     position: relative;
