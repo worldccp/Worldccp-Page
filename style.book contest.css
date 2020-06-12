@@ -41,7 +41,7 @@ header {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.main-title p.a {
+.description {
     background-color: rgba(0, 0, 0, 0.671);
     display: inline-block;
     color: whitesmoke;
