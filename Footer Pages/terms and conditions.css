@@ -3,7 +3,7 @@ body {
     background-image: url("../Images/man\ sitting\ on\ mountain.jpg");
     background-size: 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     height: 1024px;
     width: 1024px;
     padding-right: 100px;    
