@@ -36,7 +36,7 @@ header {
     margin: 1px;      
 }
 .main-title-text h2.main-title {
-    background: red;
+    background: rgba(255, 0, 0, 0.658);
     font-size: 80px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -48,12 +48,12 @@ header {
     margin: 10px;
     position: relative;
 }
-.green .green2 {
-    background-color: rgba(0, 128, 0, 0.76);
+.footer-banner {
+    background-color: rgba(10, 248, 10, 0.76);
     display: inline-block;
 }
 .home .book-contest-bar {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.856);
     display: inline-block;
     width: 1024px;
 }
@@ -62,9 +62,9 @@ header {
     background-image: url("../Images/Book Cover Sons of Roark.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    width:700px;
-    height: 700px;
+    width:800px;
+    height: 800px;
     display: inline-block;
-    text-align: left;
+    position: relative;
     text-indent: -999999999px;
 }
