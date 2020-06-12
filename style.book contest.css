@@ -61,7 +61,7 @@ header {
     background-color: black;
     background-image: url("../Images/Book Cover Sons of Roark.png");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     width:800px;
     height: 800px;
     display: inline-block;
