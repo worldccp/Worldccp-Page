@@ -65,6 +65,8 @@ a:hover {
     color: whitesmoke;
     display: inline-block;
     font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .description {
     background-color: rgba(0, 0, 0, 0.726);
