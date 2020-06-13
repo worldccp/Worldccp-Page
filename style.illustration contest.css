@@ -1,8 +1,9 @@
 body {
     background: gray;
     background-image: url("Images/holding up trophy.jpg");
+    background-repeat: repeat-y;
     background-size: 100%;
-    background: repeat-y;
+    height: 1024;
     width: 1024px;
     padding-right: 100px;    
     padding-left: 100px;
@@ -49,12 +50,12 @@ header {
 }
 .Sons-of-Roark-Ad {
     background-color: black;
-    background-image: url("Images/Book Cover Sons of Roark.png");
-    background-size: 100px;
-    text-indent: -9999999999999;
-    text-align: center;
-    padding-top: 650px;
-    padding-bottom: 650px;
-    height: 650px;
-    width: 650px; 
+    background-image: url("../Images/Book Cover Sons of Roark.png");
+    background-size: 100%;
+    background-repeat: repeat-x;
+    width:800px;
+    height: 800px;
+    display: inline-block;
+    position: relative;
+    text-indent: -999999999px;
 }
