@@ -80,7 +80,7 @@ a:hover {
     display: inline-block;
     font-size: 15px; 
 }
-.home .book-contest-bar {
+.home .book-contest-bar a {
     background-color: red;
     color: yellow;
     font-size: 20px;
