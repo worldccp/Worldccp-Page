@@ -58,6 +58,7 @@ header {
 .footer-banner {
     background-color: rgba(10, 248, 10, 0.76);
     display: inline-block;
+    font-size: 20px;
 }
 .home .book-contest-bar {
     background-color: rgba(255, 0, 0, 0.856);
