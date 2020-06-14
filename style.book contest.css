@@ -66,5 +66,8 @@ header {
     float: left;
     margin-right: 5px;
     margin-bottom: 10px;
-    
+}
+.description {
+    background-color: rgba(0, 0, 0, 0.671);
+    color: whitesmoke;
 }
