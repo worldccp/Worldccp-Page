@@ -67,4 +67,7 @@ header {
     margin-left: 5px;
     padding: 2px; 
 }
-
+.description {
+    border: 1px solid yellow; 
+    
+}
