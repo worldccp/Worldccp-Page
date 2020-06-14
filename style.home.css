@@ -97,11 +97,8 @@ p {
     color: whitesmoke;
     font-size: 28px;
 }
-.main-title2, .BC, .trending, .webuyblack a, .IC a {
+.main-title2, .BC, .trending, .worldccp, .webuyblack, .IC {
     background-color: rgba(0, 0, 0, 0.726);
     color: whitesmoke;
     font-size: 30px;
-}
-.main-title2 {
-       
 }
