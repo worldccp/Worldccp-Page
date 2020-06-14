@@ -76,17 +76,14 @@ p {
 .b-banner a {
     color: blue;
 }
-.home .book-contest-bar {
+.contest-bar {
     background-color: red;
     display: inline-block;
     font-size: 20px;
     width: 1024px;
+    text-decoration: none;
 }
-.home .book-contest-bar a {
-    background-color: red;
-    color: yellow;
-    font-size: 20px;
-}
+
 .float-img {
     float: left;
     margin-bottom: 10px;
