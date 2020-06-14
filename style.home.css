@@ -83,7 +83,7 @@ p {
     width: 1024px;
     text-decoration: none;
 }
-.contest-bar  {
+.contest-bar a {
     background-color: red;
     color: yellow;
     font-size: 20px;
