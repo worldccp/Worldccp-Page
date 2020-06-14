@@ -58,7 +58,7 @@ header {
 .home .book-contest-bar a {
     color: yellow;
 }
-.googleplay, .description, .webuyblack, .main-title {
+.googleplay, .description, .webuyblack, .main-title, .book-cover a {
     background-color: rgba(0, 0, 0, 0.692);
     color: whitesmoke; 
     display: inline-block;
