@@ -93,12 +93,6 @@ p {
     margin-left: 5px;
     padding: 2px;
 }
-.description {
-    background-color: rgba(0, 0, 0, 0.726);
-    border: solid yellow 1px; 
-    color: whitesmoke;
-    font-size: 28px;
-}
 .main-title2, .BC, .trending, .worldccp, .webuyblack, .IC {
     background-color: rgba(0, 0, 0, 0.726);
     color: whitesmoke;
