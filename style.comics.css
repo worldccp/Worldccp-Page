@@ -17,19 +17,6 @@ header {
     padding: 20px;
     text-align: center;    
 }
-.Sons-of-Roark-Ad {
-    background-color: black;
-    background-image: url("Images/Book Cover Sons of Roark.png");
-    background-size: 100%;
-    background-position: center;
-    image: no-repeat;
-    height: 680;
-    width: 680;
-    padding-top: 700px;
-    padding-bottom: 700px;
-    text-indent: -999999999999999999999999999999999;
-    text-align: center;
-}
 ul {
     list-style: none;
     padding: 0;
@@ -90,4 +77,9 @@ a:hover {
     background-color: red;
     font-size: 20px;
     width: 1024px;
+}
+.float-img {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 2px;
 }
