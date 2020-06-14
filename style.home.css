@@ -76,7 +76,7 @@ p {
 .b-banner {
     color: blue;
 }
-.contest-bar {
+.home .contest-bar {
     background-color: red;
     color:yellow;
     display: inline-block;
