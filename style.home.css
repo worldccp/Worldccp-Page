@@ -78,7 +78,7 @@ p {
 }
 .contest-bar {
     background-color: red;
-    display: inline-block;
+    display: block;
     font-size: 20px;
     width: 1024px;
     text-decoration: none;
