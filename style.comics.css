@@ -69,6 +69,7 @@ a:hover {
 .home .book-contest-bar a {
     background-color: red;
     color: yellow;
+    display: inline-block;
     font-size: 20px;
     width: 1024px;
 }
