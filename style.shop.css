@@ -63,7 +63,7 @@ header {
     color: whitesmoke; 
     display: inline-block;
 }
-.bottombanner {
+.bottombanner a{
     background color: rgba(0, 0, 0, 0.692);
     color: green;
     display: inline-block;
