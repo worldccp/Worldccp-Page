@@ -67,6 +67,7 @@ header {
     background-color: rgba(0, 0, 0, 0.692);
     color: rgb(40, 248, 40);
     display: inline-block;
+    font-size: 30px;
 }
 .bottombanner a:hover {
     background-color: red;
