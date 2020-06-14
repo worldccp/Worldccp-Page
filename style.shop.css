@@ -77,4 +77,9 @@ header {
     color: rgb(40, 248, 40);
     display: block;
 }
-
+.float-img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+    padding: 2px;
+}
