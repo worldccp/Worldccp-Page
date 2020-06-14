@@ -78,15 +78,13 @@ p {
 }
 .contest-bar {
     background-color: red;
-    display: block;
+    color:yellow;
+    display: inline-block;
     font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     width: 1024px;
     text-decoration: none;
-}
-.contest-bar a {
-    background-color: red;
-    color: yellow;
-    font-size: 20px;
 }
 .float-img {
     float: left;
