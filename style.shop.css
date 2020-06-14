@@ -64,7 +64,7 @@ header {
     display: inline-block;
 }
 .bottombanner a{
-    background color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(0, 0, 0, 0.692);
     color: green;
     display: inline-block;
 }
