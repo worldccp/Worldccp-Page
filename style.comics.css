@@ -79,7 +79,9 @@ a:hover {
     width: 1024px;
 }
 .float-img {
+    float: left;
     margin-bottom: 10px;
     margin-left: 5px;
     padding: 2px;
 }
+
