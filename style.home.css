@@ -46,6 +46,7 @@ header {
     height: 400px;
     text-align: center;
     padding-bottom: 15px;
+    padding-top: 5px;
 }
 .links.for.home {
     background-color: rgba(0, 0, 0, 0.719);
