@@ -83,5 +83,6 @@ header {
     height: 500px;
     text-align: left; 
     display: inline-block;
+    position: relative;
 }
 
