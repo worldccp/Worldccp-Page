@@ -43,7 +43,6 @@ header {
 }
 .description {
     background-color: rgba(0, 0, 0, 0.671);
-    display: inline-block;
     color: whitesmoke;
 }
 .first-header {
@@ -64,10 +63,9 @@ header {
 }
 .float-img {
     float: left;
-    margin-right: 5px;
+    clear: right;
     margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 2px; 
 }
-.description {
-    background-color: rgba(0, 0, 0, 0.671);
-    color: whitesmoke;
-}
+
