@@ -63,6 +63,9 @@ header {
     color: whitesmoke; 
     display: inline-block;
 }
+.description {
+    text-align: right;
+}
 .bottombanner a {
     background-color: rgba(0, 0, 0, 0.692);
     color: rgb(40, 248, 40);
@@ -71,5 +74,14 @@ header {
 .bottombanner a:hover {
     background-color: red;
     text-decoration: underline;   
+}
+.book-cover {
+    background-color: black;
+    background-image: url("Images/Book Cover Sons of Roark.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: left; 
+    display: inline-block;
 }
 
