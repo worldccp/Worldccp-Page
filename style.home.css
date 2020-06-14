@@ -19,7 +19,7 @@ body {
 }
 .first-header {
     background-color: rgba(0, 0, 0, 0.726);
-    color: skyblue;
+    color: blue;
     display: inline-block;
     border-radius: 10px;
     margin: 10px;
