@@ -69,8 +69,8 @@ header {
     display: inline-block;
 }
 .bottombanner a:hover {
+    text-decoration-color: whitesmoke;
     background-color: red;
     text-decoration: underline;   
-    text-decoration-color: whitesmoke;
 }
 
