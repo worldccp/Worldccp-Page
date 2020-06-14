@@ -68,7 +68,7 @@ header {
     color: green;
     display: inline-block;
 }
-.bottombanner a, a:hover {
+.bottombanner a:hover {
     background-color: red;
     text-decoration: underline;
 }
