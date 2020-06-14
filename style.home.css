@@ -95,8 +95,9 @@ p {
 }
 .description {
     background-color: rgba(0, 0, 0, 0.726);
+    border: solid yellow 1px; 
     color: whitesmoke;
-    font-size: 10px;
+    font-size: 28px;
 }
 .main-title2, .BC, .trending, .worldccp, .webuyblack, .IC {
     background-color: rgba(0, 0, 0, 0.726);
