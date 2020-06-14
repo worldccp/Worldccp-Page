@@ -59,12 +59,13 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.726);
     color: whitesmoke;
     font-size: 15px;
+    display: inline-block;
 }
 .email {
     background-color: rgba(0, 0, 0, 0.726);
     color: limegreen;
     display: inline-block;
-    font-size: 15px; 
+    font-size: 28px; 
 }
 .home .book-contest-bar a {
     background-color: red;
