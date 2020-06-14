@@ -66,6 +66,9 @@ a:hover {
     display: inline-block;
     font-size: 28px; 
 }
+.email a {
+    color: blue;
+}
 .home .book-contest-bar a {
     background-color: red;
     color: yellow;
