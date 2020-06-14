@@ -63,12 +63,12 @@ header {
     color: whitesmoke; 
     display: inline-block;
 }
-.bottombanner a, {
+.bottombanner a {
     background-color: rgba(0, 0, 0, 0.692);
     color: green;
     display: inline-block;
 }
 .bottombanner a:hover {
     background-color: red;
-    text-decoration: underline;
+    text-decoration: underline;   
 }
