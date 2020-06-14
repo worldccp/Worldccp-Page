@@ -1,9 +1,14 @@
 body {
     background: gray;
+    background-image: url("Images/hello sign.jpg");
+    background-size: 100%;
+    background-postion: center;
+    image: repeat-y;
+    text-align: center;
+    height: 1024;
     width: 1024px;
     padding-right: 100px;    
     padding-left: 100px;
-    text-align: center;
 }
 ul {
     list-style: none;
