@@ -37,7 +37,7 @@ header {
     margin: 1px;      
 }
 .main-title-text h2.main-title {
-    background: red;
+    background: rgba(0, 0, 255, 0.692);
     font-size: 80px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -58,4 +58,13 @@ header {
 .home .book-contest-bar a {
     color: yellow;
 }
-
+.googleplay, .description.webuyblack.main-title {
+    background color: rgba(0, 0, 0, 0.692);
+    color: whitesmoke; 
+    display: inline-block;
+}
+.bottombanner {
+    background color: rgba(0, 0, 0, 0.692);
+    color: green;
+    display: inline-block;
+}
