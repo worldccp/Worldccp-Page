@@ -59,6 +59,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.726);
     color: whitesmoke;
     font-size: 28px;
+    border: solid yellow 1px;
 }
 .email {
     background-color: rgba(0, 0, 0, 0.726);
