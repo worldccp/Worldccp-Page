@@ -71,5 +71,7 @@ header {
 .bottombanner a:hover {
     background-color: red;
     text-decoration: underline;   
+}
+.bottombanner a:hover {
     color: smokewhite;
 }
