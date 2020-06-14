@@ -78,7 +78,7 @@ header {
     display: block;
     padding: 2px;
     border-color: yellow;
-    font-size: 10px;
+    font-size: 25px;
 }
 .float-img {
     float: left;
