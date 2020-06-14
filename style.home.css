@@ -82,6 +82,7 @@ p {
     color: yellow;
     display: inline-block;
     font-size: 25px;
+    padding-bottom: 15px;
     width: 1024px;
 }
 .float-img {
