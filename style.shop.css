@@ -65,10 +65,11 @@ header {
 }
 .bottombanner a {
     background-color: rgba(0, 0, 0, 0.692);
-    color: green;
+    color: neongreen;
     display: inline-block;
 }
 .bottombanner a:hover {
     background-color: red;
     text-decoration: underline;   
+    color: smokewhite;
 }
