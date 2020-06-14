@@ -50,12 +50,13 @@ header {
 }
 .Sons-of-Roark-Ad {
     background-color: black;
-    background-image: url("../Images/Book Cover Sons of Roark.png");
-    background-size: 100%;
-    background-repeat: repeat-x;
-    width:800px;
-    height: 800px;
-    display: inline-block;
-    position: relative;
-    text-indent: -999999999px;
+    display: block;
+}
+.description {
+    
+}
+.float-img {
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
 }
