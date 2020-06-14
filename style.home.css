@@ -19,8 +19,8 @@ body {
 }
 .first-header {
     background-color: rgba(0, 0, 0, 0.726);
-    color: green;
-    display: block;
+    color: skyblue;
+    display: inline-block;
     border-radius: 10px;
     margin: 10px;
     position: relative;
