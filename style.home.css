@@ -97,13 +97,13 @@ p {
     color: whitesmoke;
     font-size: 30px;
 }
-.description .float-img {
+.float-img {
     float: left;
     margin-right: 5px;
     margin-left: 10px;
     padding: 2px;
 }
-.description .pd {
+.pd {
     background-color: rgba(0, 0, 0, 0.726;
     color: whitesmoke;
     font-size: 28px;
