@@ -104,6 +104,9 @@ p {
     padding: 2px;
 }
 .description {
+    background-color: black;
+    color: whitesmoke;
     float: right;
-    
+    display: inline-box;
+    font-size: 28px;
 }
