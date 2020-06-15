@@ -106,7 +106,7 @@ p {
 .description {
     background-color: black;
     color: whitesmoke;
-    float: right;
+    text-align: right;
     display: inline-box;
     font-size: 28px;
 }
