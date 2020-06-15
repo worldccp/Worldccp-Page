@@ -87,17 +87,6 @@ p {
     padding-bottom: 15px;
     width: 1024px;
 }
-.float-img {
-    float: left;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    padding: 2px;
-}
-.description {
-    background-color: rgba(0, 0, 0, 0.808);
-    border: solid yellow 1px;    
-    font-size: 28px;
-}
 .main-title2, .BC, .worldccp, .webuyblack, .IC {
     background-color: rgba(0, 0, 0, 0.726);
     color: whitesmoke;
@@ -107,4 +96,10 @@ p {
     background-color: rgba(0, 0, 0, 0.726);
     color: whitesmoke;
     font-size: 30px;
+}
+.float-img {
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 2px;
 }
