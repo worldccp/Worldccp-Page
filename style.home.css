@@ -12,7 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .main-title {
-    background: rgba(255, 0, 0, 0.568);
+    background: rgba(255, 0, 0, 0.768);
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -97,14 +97,14 @@ p {
     color: whitesmoke;
     font-size: 30px;
 }
-.float-img {
+.float-img, .float-img2 {
     float: left;
     margin-right: 5px;
     margin-left: 10px;
     padding: 2px;
 }
-.description {
-    background-color: black;
+.description, .img-description {
+    background-color: rgba(0, 0, 0, 0.726;
     color: whitesmoke;
     font-size: 28px;
     border: solid yellow 1px;
