@@ -48,7 +48,7 @@ header {
     margin: 10px;
     position: relative;
 }
-.description {
+.description p {
     background-color: rgba(0, 0, 0, 0.76);
     border: solid yellow 1px;
     color: whitesmoke;
@@ -60,7 +60,7 @@ header {
     margin-left: 10px;
     padding: 2px;
 }
-.home .contest-bar {
+.contest-bar {
     background-color: red;
     display: inline-block;
     font-size: 25px;
