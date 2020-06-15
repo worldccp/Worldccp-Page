@@ -48,7 +48,7 @@ header {
     margin: 10px;
     position: relative;
 }
-.description p {
+.description {
     background-color: rgba(0, 0, 0, 0.76);
     border: solid yellow 1px;
     color: whitesmoke;
