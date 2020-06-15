@@ -107,4 +107,5 @@ p {
     background-color: black;
     color: whitesmoke;
     font-size: 28px;
+    border: solid yellow 1px;
 }
