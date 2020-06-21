@@ -72,4 +72,7 @@ header {
     text-decoration: none;
     display: inline-block; 
     background-color: red;
+    width: 1024px;
+    height: 30px;
+    font-size: 25px;
 }
