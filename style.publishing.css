@@ -69,14 +69,13 @@ header {
     color: gold;
 }
 .home .contest-bar {
-    text-decoration: none;
     display: inline-block; 
     background-color: red;
     width: 1024px;
-    height: 30px;
+    padding: 15px;
     font-size: 25px;
 }
-.home .contest-bar a:hover {
+.contest-bar, a:hover {
     text-decoration: underline;
     background-color: blue;
 }
