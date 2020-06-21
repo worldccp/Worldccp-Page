@@ -53,7 +53,7 @@ header {
     margin: 10px;
     position: relative;
 }
-.b-banner, {
+.b-banner {
     background-color: rgba(0, 0, 0, 0.849);
     display: block; 
     color: green; 
