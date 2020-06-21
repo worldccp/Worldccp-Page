@@ -53,3 +53,15 @@ header {
     margin: 10px;
     position: relative;
 }
+.b-banner {
+    background-color: rgba(255, 255, 0, 0.603);
+    display: block; 
+    color: green; 
+    font-size: 20px; 
+}
+.float-img {
+    float: left;
+    margin-bottom: 10px; 
+    margin-right: 5px;
+}
+
