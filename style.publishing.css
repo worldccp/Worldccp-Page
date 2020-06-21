@@ -41,7 +41,7 @@ header {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.description, .h2, .trending {
+.description, .h2, .trending, .footerlinks {
     background-color: rgba(0, 0, 0, 0.849);
     color: whitesmoke;
     display: block;
