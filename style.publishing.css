@@ -68,7 +68,7 @@ header {
     background-color: rgba(0, 0, 0, 0.849);
     color: gold;
 }
-.home .contest-bar {
+.contest-bar {
     text-decoration: none;
     display: inline-block; 
     background-color: red;
@@ -76,7 +76,7 @@ header {
     padding: 15px;
     font-size: 25px;
 }
-.contest-bar.a:hover {
+.contest-bar a a:hover {
     text-decoration: underline;
     background-color: blue;
 }
