@@ -17,7 +17,7 @@ a {
     color: white;
 }
 a:hover {
-    background-color: red;
+    background-color: blue;
     text-decoration: underline;
 }
 header {
