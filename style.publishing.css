@@ -34,7 +34,7 @@ header {
     display: inline-block;
     margin: 1px;      
 }
-.second-header{
+section .second-header{
     background: rgba(255, 0, 0, 0.808);
     font-size: 80px;
     margin-top: 5px;
