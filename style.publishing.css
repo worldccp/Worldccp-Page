@@ -80,12 +80,12 @@ header {
     text-decoration: underline;
     background-color: blue;
 }
-.signup {
+.submit .signup {
     background-color: rgba( 0, 0, 0, 0.849);
     color: whitesmoke; 
     text-decoration: none;
 }
-.signup a a:hover {
+.submit .signup .a a:hover {
     text-decoration: underline;
     background-color: red;
 }
