@@ -118,6 +118,7 @@ a:hover {
 }
 .logo {
     color: whitesmoke;
+    text-align: left;
 }
 /* Responsive Rules */
 
@@ -147,6 +148,7 @@ a:hover {
 .dropdown {
   position: relative;
   display: inline-block;
+  float: right;
 }
 
 .dropdown-content {
