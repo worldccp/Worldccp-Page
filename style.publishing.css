@@ -14,10 +14,9 @@ nav {
     display: inline-block;
     margin: 1px;      
 }
-nav p {
+nav h1 {
     font-family: arial;
     color: whitesmoke;
-    font-size: 24px;
     line-height: 55px; 
     float: left; 
     padding: 0px 20px;
