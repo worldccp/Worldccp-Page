@@ -52,8 +52,8 @@ header .mobile {
     background: rgba(255, 0, 0, 0.808);
     color: whitesmoke;
     font-size: 80px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .description, .h2, .trending, .footerlinks {
     background-color: rgba(0, 0, 0, 0.849);
