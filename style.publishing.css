@@ -14,13 +14,13 @@ nav {
     display: inline-block;
     margin: 1px;      
 }
-nav h1 {
+nav p {
     font-family: arial;
-    color: gold;
+    color: whitesmoke;
     line-height: 55px; 
+    font-size: 24px;
     float: left; 
     padding: 0px 20px;
-    text-align: center;
 }
 nav ul {
     float: left;
@@ -28,6 +28,7 @@ nav ul {
 nav ul li {
     float: left;
     list-style: none;
+    position: relative;
 }
 nav ul li a {
     display: block;
@@ -37,6 +38,10 @@ nav ul li a {
     font-size: 14px;
     float: left; 
     padding: 24px 20px;
+}
+nav ul li ul {
+    display: block;
+    position: absolute;
 }
 a {
     text-decoration: none;
