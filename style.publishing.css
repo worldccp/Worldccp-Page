@@ -11,6 +11,10 @@ body {
     padding-left: 100px;
     text-align: center;
 }
+.logo {
+    float: left;
+    color: whitesmoke;
+}
 a {
     text-decoration: none;
     color: white;
