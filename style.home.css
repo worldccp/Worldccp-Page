@@ -2,6 +2,7 @@ body {
     background: rgb(241, 245, 241);
     background-image: url("../Images/Bookshelf\ imag.jfif");
     background-size: cover;
+    padding-right: 100px;
     height: 1024px;
     width: 1024px;
     text-align: center;
@@ -9,7 +10,7 @@ body {
 }
 .logo {
     color: whitesmoke;
-    float: right;
+    float: left;
 }
     
 .main-title {
