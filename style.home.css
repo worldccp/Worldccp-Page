@@ -39,16 +39,6 @@ a:hover {
     background-color: red;
     text-decoration: underline;
 }
-header {
-    background-color: rgba(0, 0, 0, 0.918);
-    background-image: url("../Images/Painted\ Logo\ of\ World\ Class\ Comics\ Publishing.jpg");
-    background-size: 100%;
-    background-position: center;
-    height: 400px;
-    text-align: center;
-    padding-bottom: 15px;
-    padding-top: 30px;
-}
 .links.for.home {
     background-color: rgba(0, 0, 0, 0.719);
     display: inline-block;
