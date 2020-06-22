@@ -37,40 +37,39 @@
     <header>
             <nav>
                    <p>World Class Comics<p>
-               <ul>
-                   <li class="desktop"> <a href="example-index.html">Example</a>
-                        <ul> 
-                            <li class="desktop"> <a href="index.html">Home</a></li>
-                            <li class="desktop"> <a href="Our Works-index.html">Our Team</a></li>
-                            <li class="desktop"> <a href="World Class Sports-index.html">Sports</a></li>
-                       </ul>
-                    </li>
-                    
-                   <li class="desktop"> <a href="#">Shop</a>
-                        <ul>
-                            <li class="desktop"> <a href="Comics-index.html">Comics & Manga</a></li>
-                            <li class="desktop"> <a href="Books-index.html">Books</a></li>
-                            <li class="desktop"> <a href="Poetry-index.html">Poetry</a></li>
-                        </ul>
-                    </li>
-                
-                   <li class="desktop"> <a href="#">Contest</a>
-                    <ul>
-                        <li class="desktop"> <a href="Book Contest-index.html">OC Book Contest</a></li>
-                        <li class="desktop"> <a href="Illustration Contest-index.html">OC Illustration Contest</a></li>
-                        <li class="desktop"> <a href="Poetry Contest-index.html">OC Poetry Contest</a></li>
-                    </ul>
-                   </li>
-                    
-                   <li class="desktop"> <a href="#">Publishing</a>
-                        <ul>
-                            <li class="desktop"> <a href="Comics-index.html">Comics & Manga</a></li>
-                            <li class="desktop"> <a href="Books-index.html">Book</a></li>
-                            <li class="desktop"> <a href="Poetry-index.html">Poetry</a></li>
-                            <li class="desktop"> <a href="Author Opinion-index.html">Authors Opinion</a></li>
-                         </ul>
-                  </li>
-                </ul>
+               <h2>Clickable Dropdown</h2>
+<p>Click on the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
             
             </nav>       
                   
