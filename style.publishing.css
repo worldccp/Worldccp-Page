@@ -187,7 +187,7 @@ a:hover {
   background-color: #2980B9;
 }
 
-.dropdown {
+.dropdown2 {
   position: relative;
   display: inline-block;
   float: right;
@@ -210,7 +210,7 @@ a:hover {
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown2 a:hover {background-color: #ddd;}
 
 .show {display: block;}
 
