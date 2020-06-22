@@ -32,6 +32,7 @@ nav ul li {
 nav ul li a {
     display: block;
     font-family: arial;
+    background-color: rgba(0, 0, 0, 0.894);
     color: whitesmoke;
     font-size: 14px;
     float: left; 
