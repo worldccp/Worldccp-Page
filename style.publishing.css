@@ -11,43 +11,6 @@ body {
     padding-left: 100px;
     text-align: center;
 }
-nav {
-    width: 100%;
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.849);
-    display: inline-block;
-    margin: 1px;      
-}
-nav p {
-    font-family: arial;
-    color: whitesmoke;
-    line-height: 55px; 
-    font-size: 24px;
-    float: left; 
-    padding: 0px 20px;
-}
-nav ul {
-    float: left;
-}
-nav ul li {
-    float: left;
-    list-style: none;
-    position: relative;
-}
-nav ul li a {
-    display: block;
-    font-family: arial;
-    background-color: rgba(0, 0, 0, 0.894);
-    color: whitesmoke;
-    font-size: 14px;
-    float: left; 
-    padding: 24px 20px;
-}
-nav ul li ul {
-    display: block;
-    position: absolute;
-    background-color: pink;
-}
 a {
     text-decoration: none;
     color: white;
@@ -116,10 +79,6 @@ a:hover {
     text-decoration: underline;
     background-color: red;
 }
-.logo {
-    color: whitesmoke;
-    text-align: left;
-}
 /* Responsive Rules */
 
 @media screen and (min-width: 900px) {
@@ -139,7 +98,7 @@ body {margin:0;font-family:Arial}
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -158,7 +117,7 @@ body {margin:0;font-family:Arial}
 }
 
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
