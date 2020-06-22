@@ -132,7 +132,7 @@ a:hover {
 }
 /* Button Code Below */
 
-.dropbtn, dropAdiva{
+.dropbtn {
   background-color: #3498DB;
   color: white;
   padding: 16px;
@@ -141,7 +141,7 @@ a:hover {
   cursor: pointer;
 }
 
-.dropbtn:hover, .dropAdiva:hover, .dropAdiva:focus, .dropbtn:focus {
+.dropbtn:hover, .dropbtn:focus {
   background-color: #2980B9;
 }
 
@@ -151,7 +151,7 @@ a:hover {
   float: right;
 }
 
-.dropdown-content, .dropdown-content2 {
+.dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -161,7 +161,7 @@ a:hover {
   z-index: 1;
 }
 
-.dropdown-content, .dropdown-content2 a {
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -171,3 +171,46 @@ a:hover {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+/* Second Button */
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
