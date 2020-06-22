@@ -21,6 +21,14 @@ nav p {
     line-height: 55px; 
     float: left; 
 }
+nav ul {
+    float: left;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
 ul {
     list-style: none;
     padding: 0;
