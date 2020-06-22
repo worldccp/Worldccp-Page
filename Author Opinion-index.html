@@ -23,21 +23,39 @@
 <body>
     <header>
             <nav>
-                    <ul class="links for home"> 
-                        <a href="index.html">Home</a>
-                        <a href="shop-index.html">Shop</a>
-                        <a href="Comics-index.html">Comics</a>
-                        <a href="Publishing-index.html">Publishing</a>
-                        <a href="Our Works-index.html">Our Works</a>
-                        <a href="Poetry-index.html">Poetry</a>
-                        <a href="Illustration Contest-index.html">Illustration Contest</a>
-                        <a href="Book Contest-index.html">Book Contest</a>
-                        <a href="Poetry Contest-index.html">Poetry Contest</a>
-                        <a href="Author Opinion-index.html">Author Opinion</a>
-                        <a href="Videos-index.html">Videos</a>
-                        <a href="Words of Encouragement-index.html">Words of Encouragement</a>
-                        <a href="World Class Sports-index.html">World Class Sports</a>      
-                    </ul>    
+                    
+<div class="topnav" id="myTopnav">
+  <p class="logo">World Class Comics</p>
+  <a href="index.html" class="active">Home</a>
+  <a href="Shop-index.html">Shop</a>
+  <a href="Book Contest-index.html">Contest</a>
+  <div class="dropdown">
+    <button class="dropbtn">Menu 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Our Works-index.html">Our Team</a>
+      <a href="Author Opinions-index.html">Authors Opinion</a>
+    </div>
+  </div> 
+  <a href="#">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
             </nav>           
             <h1 class="first-header">Inside the Minds of Published Authors</h1>   
     </header>                   
