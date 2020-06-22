@@ -23,20 +23,10 @@ a:hover {
     background-color: red;
     text-decoration: underline;
 }
-header {
-    background-color: black;
-    background-image: url("/Images/Painted\ Logo\ of\ World\ Class\ Comics\ Publishing.jpg");
-    background-size: 100%;
-    background-position: center;
-    height: 400px;
-    padding: 20px;
-    text-align: center;    
-}
 .links.for.home {
     background-color: rgba(0, 0, 0, 0.849);
     display: inline-block;
-    margin: 1px;    
-    
+    margin: 1px;     
 }
 .main-title-text h2.main-title {
     background: rgba(255, 0, 0, 0.548);
