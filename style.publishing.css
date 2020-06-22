@@ -29,6 +29,9 @@ header {
     padding: 20px;
     text-align: center;    
 }
+header .mobile {
+    display: none;
+}
 .links.for.home {
     background-color: rgba(0, 0, 0, 0.849);
     display: inline-block;
@@ -88,4 +91,14 @@ header {
 .Signup .a a:hover {
     text-decoration: underline;
     background-color: red;
+}
+/* Responsive Rules */
+
+@media screen and (max-width: 900px) {
+    header .mobile {
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
 }
