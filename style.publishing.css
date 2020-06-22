@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background: gray;
     background-image: url("Images/kid reading book.jpg");
