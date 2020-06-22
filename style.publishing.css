@@ -14,6 +14,13 @@ nav {
     display: inline-block;
     margin: 1px;      
 }
+nav p {
+    font-family: arial;
+    color: whitesmoke;
+    font-size: 24px;
+    line-height: 55px; 
+    float: left; 
+}
 ul {
     list-style: none;
     padding: 0;
@@ -25,15 +32,6 @@ a {
 a:hover {
     background-color: blue;
     text-decoration: underline;
-}
-header {
-    background-color: black;
-    background-image: url("../Images/Painted\ Logo\ of\ World\ Class\ Comics\ Publishing.jpg");
-    background-size: 100%;
-    background-position: center;
-    height: 400px;
-    padding: 20px;
-    text-align: center;    
 }
 header .mobile {
     display: none;
