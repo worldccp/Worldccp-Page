@@ -20,6 +20,7 @@ nav h1 {
     line-height: 55px; 
     float: left; 
     padding: 0px 20px;
+    text-align: center;
 }
 nav ul {
     float: left;
