@@ -1,8 +1,7 @@
 body {
     background: gray;
     background-image: url("Images/kid reading book.jpg");
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background-size: cover;
     width: 1024px;
     padding-right: 100px;    
     padding-left: 100px;
