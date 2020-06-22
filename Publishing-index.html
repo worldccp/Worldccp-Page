@@ -34,49 +34,36 @@
        
     </div>
  <! -- OU Search Ignore Start Here -->
+    
     <header>
             <nav>
-                   
-              
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Menu</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#home">Home</a>
-    <a href="#home">Home</a>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+               
+ <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
   </div>
-</div>
-    
-                
-                             
-                
- <h2 class="logo">World Class Comics</h2>
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div> 
+                /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
-}
-
-</script>
-            
+} 
             </nav>       
                   
     </header>                   
