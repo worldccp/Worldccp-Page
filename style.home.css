@@ -55,6 +55,35 @@ body {
     font-size: 16px;
     padding: 16px 32px;
 }
+/* CSS for Nav Bar Ends */
+
+.book-contest-bar {
+    background-color: red;
+    display: block;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: blue;
+}
+
+/* Responsive Images and Nav Bar */
+
+@media screen and (max-width: 959px) {
+    .container {
+        width: 100%;
+    }
+    .responsive {
+        width: 100%;
+    }
+    .book-contest-bar {
+        width: 100%;
+    }
+}
 
 /* CSS for Nav Bar */
 
@@ -132,7 +161,7 @@ body {margin:0;font-family:Arial}
   display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 959px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -142,7 +171,7 @@ body {margin:0;font-family:Arial}
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 959px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -163,18 +192,4 @@ body {margin:0;font-family:Arial}
     text-align: left;
   }
 }
-/* CSS for Nav Bar Ends */
 
-.book-contest-bar {
-    background-color: red;
-    display: block;
-    font-size: 24px;
-}
-a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-a:hover {
-    text-decoration: underline;
-    background-color: blue;
-}
