@@ -99,12 +99,30 @@ body {
     padding: 16px 32px;
 }
 /* Book Cover CSS */
-
+.container3 {
+  position: relative;
+  width: repeat-x;
+  height: 400px;
+}
+.responsive-img2 {
+  opacity: 1;
+  display: block;
+  width: repeat-x;
+  height: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 .description {
     border: solid yellow 1px;
     color: whitesmoke;
     background-color: black;
     display: block;
+}
+h2 {
+   font-size: 28px;
+   background-color: whitesmoke;
+   color: red;
+   display: block;
 }
 /* bottom Footer CSS */
 
