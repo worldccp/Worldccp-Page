@@ -16,6 +16,7 @@ body {
 .container {
     position: relative;
     width: 100%;
+    object-fit: fill;
 }
 .image {
     opacity: 1;
@@ -24,7 +25,6 @@ body {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    object-fit: fill;
 }
 .middle {
     transition: .5s ease;
