@@ -54,19 +54,6 @@ body {
     padding: 16px 32px;
 }
 
-/* bottom Footer CSS */
-
-.bottombanner, .footer {
-    background-color: rgba(0, 0, 0. 0.794);
-    color: white;
-    display: block;
-}
-.b-logo {
-    background-color: rgba(0, 0, 0. 0.794);
-    color: white;
-    display: block;
-}
-
 /*Responsive Img Second one */
 .container2 {
   position: relative;
@@ -116,9 +103,17 @@ body {
     background-color: black;
     display: block;
 }
-.responsive-imgbook {
-    width: 100%;
-    height: auto;
+/* bottom Footer CSS */
+
+.bottombanner, .footer {
+    background-color: rgba(0, 0, 0. 0.794);
+    color: white;
+    display: block;
+}
+.b-logo {
+    background-color: rgba(0, 0, 0. 0.794);
+    color: white;
+    display: block;
 }
 
 /* CSS for Nav Bar Ends */
