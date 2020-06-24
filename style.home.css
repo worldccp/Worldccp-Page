@@ -96,6 +96,17 @@ body {
     font-size: 16px;
     padding: 16px 32px;
 }
+/* Book Cover CSS */
+
+.description {
+    border: solid yellow 1px;
+    background-color: black;
+    display: block;
+}
+.responsive-imgbook {
+    width: 100%;
+    height: auto;
+}
 
 /* CSS for Nav Bar Ends */
 
