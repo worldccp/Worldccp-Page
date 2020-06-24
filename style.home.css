@@ -13,14 +13,14 @@ body {
 }
 .container {
     position: relative;
-    width: 1024px;
-    height: repeat-x;
+    width: repeat-x;
+    height: 400px;
 }
 .responsive {
     opacity: 1;
     display: block;
-    width: 1024px;
-    height: repeat-x;
+    width: repeat-x;
+    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
 }
