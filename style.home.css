@@ -102,13 +102,13 @@ body {
 .container3 {
   position: relative;
   width: repeat-x;
-  height: 600px;
+  height: 400px;
   padding-bottom: 100px;
 }
 .responsive-img2 {
   display: block;
   width: repeat-x;
-  height: 400px;
+  height: 600px;
 }
 .imgbook {
     position: absolute;
