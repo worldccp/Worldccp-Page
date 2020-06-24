@@ -136,6 +136,9 @@ h2 {
 }
 /* bottom Footer CSS */
 
+footer {
+     padding-top: 100px;
+}
 .bottombanner, .footer {
     background-color: rgba(0, 0, 0. 0.794);
     color: white;
