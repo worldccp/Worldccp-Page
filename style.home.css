@@ -58,9 +58,8 @@ body {
 .book-contest-bar {
     background-color: red;
     display: block;
-    padding: auto;
+    padding: 30px;
     font-size: 24px;
-    
 }
 a {
     text-decoration: none;
