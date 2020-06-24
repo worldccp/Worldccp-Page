@@ -20,11 +20,10 @@ body {
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 100% 1024px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    background-size: 1024px;
 }
 .middle {
     transition: .5s ease;
