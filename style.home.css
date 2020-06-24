@@ -1,114 +1,61 @@
 body {
-    background: rgb(241, 245, 241);
-    background-image: url("../Images/Bookshelf\ imag.jfif");
+    background-color: grey;
+    background-image: url("");
     background-size: cover;
-    padding-right: 100px;
+    text-align: center; 
     height: 1024px;
     width: 1024px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .logo {
-    color: whitesmoke;
     float: left;
+    color: whitesmoke;
+    font-style: oblique;
     font-size: 24px;
 }
-    
-.main-title {
-    background: rgba(255, 0, 0, 0.768);
-    font-size: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.first-header {
-    background-color: rgba(0, 0, 0, 0.815);
-    color: blue;
-    display: inline-block;
-    border-radius: 10px;
-    margin: 10px;
+.container {
     position: relative;
-    margin-bottom: 40px;
+    width: 50%;
 }
-ul {
-    list-style: none;
-    position: relative;
-    padding: 0;
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
-a {
-    text-decoration: none;
-    color: white;
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
-a:hover {
-    background-color: red;
-    text-decoration: underline;
+.container:hover .image {
+    opacity: 0.3;
 }
-.links.for.home {
-    background-color: rgba(0, 0, 0, 0.719);
-    display: inline-block;
-    margin: 1px;      
-    color: white;
+.container:hover .middle {
+    opacity: 1;
 }
-p {
-    background-color: rgba(0, 0, 0, 0.698);
-    display: inline-block;
-    color:white;
-}
-.footer-links {
-    background-color: rgba(0, 0, 0, 0.575);
-    display: inline-block;
-    color: white;
-}
-.b-logo {
-    background-color: rgba(0, 0, 0, 0.698);
-    display: inline-block;   
-    color: white;
-}
-.b-banner {
-    background-color: rgba(0, 0, 0, 0.726);
-    color: limegreen;
-    display: inline-block;
-    font-size: 28px; 
-}
-.b-banner {
-    color: blue;
-}
-.contest-bar {
-    background-color: red;
-    color: yellow;
-    display: inline-block;
-    font-size: 25px;
-    padding-bottom: 15px;
-    width: 1024px;
-}
-.main-title2, .BC, .worldccp, .webuyblack, .IC {
-    background-color: rgba(0, 0, 0, 0.726);
+.text {
+    background-color: violet;
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 16px;
+    padding: 16px 32px;
 }
-.trending {
-    background-color: rgba(0, 0, 0, 0.726);
-    color: whitesmoke;
-    font-size: 30px;
-}
-.float-img {
-    float: left;
-    margin-right: 5px;
-    margin-left: 10px;
-    padding: 2px;
-}
-.float-img2 {
-     float: right;
-    margin-left: 5px;
-    margin-bottom: 10px;
-    padding: 2px;  
-}
+  
+/* CSS for Nav Bar */
 
-/* Button Code Below */
 body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.767);
 }
 
 .topnav a {
@@ -209,4 +156,18 @@ body {margin:0;font-family:Arial}
     text-align: left;
   }
 }
+/* CSS for Nav Bar Ends */
 
+.book-contest-bar {
+    background-color: red;
+    display: block;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: blue;
+}
