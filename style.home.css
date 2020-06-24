@@ -24,7 +24,7 @@ body {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    background-size: auto;
+    background-size: 1024px;
 }
 .middle {
     transition: .5s ease;
