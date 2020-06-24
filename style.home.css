@@ -148,10 +148,10 @@ h2 {
     background-color: red;
     color: white;
     display: block;
-    font-size: 16px;
+    font-size: 26px;
 }
 .b-logo {
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.767);
     color: white;
     display: block;
 }
