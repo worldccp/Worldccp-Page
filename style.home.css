@@ -145,9 +145,10 @@ h2 {
   background-color: rgba(0, 0, 0, 0.767);
 }
 .bottombanner .b-banner {
-    background-color: rgba(0, 0, 0. 0.794);
+    background-color: red;
     color: white;
     display: block;
+    font-size: 16px;
 }
 .b-logo {
     background-color: rgba(0, 0, 0. 0.794);
