@@ -4,8 +4,7 @@ body {
     text-align: center; 
     height: 1024px;
     width: 1024px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: cover;
 }
 .logo {
     float: left;
