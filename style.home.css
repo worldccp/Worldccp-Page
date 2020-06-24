@@ -159,7 +159,7 @@ h2 {
     display: block;
 }
 
-/* CSS for Nav Bar Ends */
+/* CSS Book Contest Bar */
 
 .book-contest-bar {
     background-color: red;
@@ -257,7 +257,7 @@ body {margin:0;font-family:Arial}
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: blue;
   color: white;
 }
 
