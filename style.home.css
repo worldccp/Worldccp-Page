@@ -134,12 +134,23 @@ h2 {
    color: red;
    display: block;
 }
+
 /* bottom Footer CSS */
 
 .bottombanner {
     padding-top: 100px; 
 }
-.footer, .b-logo, .bottombanner a {
+footer .footer a {
+    background-color: rgba(0, 0, 0. 0.794);
+    color: white;
+    display: block;
+}
+footer .bottombanner .b-banner {
+    background-color: rgba(0, 0, 0. 0.794);
+    color: white;
+    display: block;
+}
+footer .b-logo {
     background-color: rgba(0, 0, 0. 0.794);
     color: white;
     display: block;
