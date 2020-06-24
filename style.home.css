@@ -138,19 +138,11 @@ h2 {
 
 .bottombanner {
     padding-top: 100px; 
-    background-color: rgba(0, 0, 0. 0.794);
-    color: white;
-    display: inline-block;
 }
-.footer {
+.footer, .b-logo, .bottombanner a {
     background-color: rgba(0, 0, 0. 0.794);
     color: white;
-    display: inline-block;
-}
-.b-logo {
-    background-color: rgba(0, 0, 0. 0.794);
-    color: white;
-    display: inline-block;
+    display: block;
 }
 
 /* CSS for Nav Bar Ends */
