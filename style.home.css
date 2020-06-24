@@ -45,14 +45,14 @@ body {
 .text {
     background-color: violet;
     color: whitesmoke;
-    font-size: 16px;
+    font-size: 24px;
     padding: 16px 32px;
 }
 .text2 {
     background-color: yellow;
     display: block;
     color: whitesmoke; 
-    font-size: 12px;
+    font-size: 16px;
     padding: 16px 32px;
 }
 
