@@ -15,7 +15,7 @@ body {
 }
 .container {
     position: relative;
-    width: 400px;
+    width: 1024px;
     height: auto;
     object-fit: fill;
 }
