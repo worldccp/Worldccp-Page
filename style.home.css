@@ -15,14 +15,14 @@ body {
 }
 .container {
     position: relative;
-    min-width: 400px;
+    width: 400px;
     height: auto;
     object-fit: fill;
 }
 .responsive {
     opacity: 1;
     display: block;
-    min-width: 400px;
+    width: 400px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
