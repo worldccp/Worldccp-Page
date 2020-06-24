@@ -262,7 +262,7 @@ body {margin:0;font-family:Arial}
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: blue;
   color: black;
 }
 
