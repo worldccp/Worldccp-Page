@@ -11,6 +11,8 @@ body {
     font-style: oblique;
     font-size: 24px;
 }
+/* First Img CSS */
+
 .container {
     position: relative;
     width: repeat-x;
@@ -100,6 +102,7 @@ body {
 
 .description {
     border: solid yellow 1px;
+    color: whitesmoke;
     background-color: black;
     display: block;
 }
