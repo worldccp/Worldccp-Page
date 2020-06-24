@@ -137,17 +137,20 @@ h2 {
 /* bottom Footer CSS */
 
 .bottombanner {
-     padding-top: 100px;
-}
-.bottombanner, .footer {
+    padding-top: 100px; 
     background-color: rgba(0, 0, 0. 0.794);
     color: white;
-    display: block;
+    display: inline-block;
+}
+.footer {
+    background-color: rgba(0, 0, 0. 0.794);
+    color: white;
+    display: inline-block;
 }
 .b-logo {
     background-color: rgba(0, 0, 0. 0.794);
     color: white;
-    display: block;
+    display: inline-block;
 }
 
 /* CSS for Nav Bar Ends */
