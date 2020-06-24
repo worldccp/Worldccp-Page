@@ -136,13 +136,11 @@ h2 {
 }
 /* bottom Footer CSS */
 
-footer {
-     padding-top: 100px;
-}
 .bottombanner, .footer {
     background-color: rgba(0, 0, 0. 0.794);
     color: white;
     display: block;
+    padding-top: 100px;
 }
 .b-logo {
     background-color: rgba(0, 0, 0. 0.794);
