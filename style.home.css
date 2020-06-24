@@ -125,6 +125,7 @@ body {
 }
 
 /* Book Cover CSS */
+
 .container3 {
   position: relative;
   width: repeat-x;
@@ -138,7 +139,7 @@ body {
 }
 .imgbook {
     position: absolute;
-    top: 8px;
+    bottom: 16px;
     left: 16px;
 }
 .description {
