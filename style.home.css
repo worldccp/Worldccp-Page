@@ -109,14 +109,18 @@ body {
   width: repeat-x;
   height: 400px;
 }
+.imgbook {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
 .description {
+    position: absolute;
+    top: 8px;
+    right: 16px;
     color: whitesmoke;
     background-color: black;
     display: block;
-}
-.responsive-imgbook {
-    padding-bottom: 10px;
-    padding-right: 5px;
 }
 h2 {
    padding-top: 20px;
