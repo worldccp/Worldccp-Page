@@ -118,7 +118,12 @@ body {
     background-color: black;
     display: block;
 }
+.responsive-imgbook {
+    padding-bottom: 10px;
+    padding-right: 5px;
 h2 {
+   padding-top: 20px;
+   padding-bottom: 20px;
    font-size: 28px;
    background-color: whitesmoke;
    color: red;
