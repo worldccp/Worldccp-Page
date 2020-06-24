@@ -19,7 +19,7 @@ body {
     height: auto;
     object-fit: fill;
 }
-.image {
+.responsive {
     opacity: 1;
     display: block;
     width: 100%;
