@@ -83,6 +83,9 @@ a:hover {
     .book-contest-bar {
         width: 100%;
     }
+    .responsive {
+        width: 100%;
+    }
 }
 
 /* CSS for Nav Bar */
