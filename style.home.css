@@ -137,6 +137,11 @@ body {
   width: 25%;
   padding: 5%;
 }
+.container3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .responsive-img2 {
   display: block;
   width: repeat-x;
