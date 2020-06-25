@@ -151,7 +151,7 @@ body {
 .p1 {
     position: absolute;    
     right: 120px;
-    padding-right: 120px;
+    right: -400px;
     font-size: 16px;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.799);
