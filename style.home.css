@@ -159,11 +159,6 @@ body {
   background-size: cover;
   position: relative;
 }
-.responsive-img2 {
-  display: block;
-  width: repeat-x;
-  height: 800px;
-}
 .description {
     background-color: rgba(0, 0, 0, 0.799);
     color: whitesmoke;
