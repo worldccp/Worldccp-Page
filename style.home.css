@@ -176,10 +176,7 @@ body {
 .bottombanner {
   padding-top: 100px; 
 }
-.bottomnav {
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.767);
-}
+
 .bottombanner .b-banner:hover {
     background-color: blue;
 }
