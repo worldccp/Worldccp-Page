@@ -18,7 +18,7 @@ body {
     width: repeat-x;
     height: 400px;
 }
-.publish {
+.publish a {
     color: red;
     background-color: whitesmoke;
 }
