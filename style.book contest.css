@@ -1,64 +1,337 @@
 body {
-    background: gray;
-    background-image: url("/Images/man looking up.jpg");
-    background-repeat: repeat-y;
-    background-size: 100%;
-    height: 1024;
-    width: 1024px;
-    padding-right: 100px;    
-    padding-left: 100px;
+    background-color: grey;
+    background-size: cover;
+    text-align: center; 
+    height: 1024px;
+    width: repeat-x;
+}
+h2 {
+    color: whitesmoke;
+    font-size: 50px;
+}
+.logo {
+    float: left;
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: 24px;
+}
+/* First Img CSS */
+
+.container {
+    position: relative;
+    width: repeat-x;
+    height: 400px;
+}
+.publish {
+    color: red;
+    background-color: whitesmoke;
+}
+.publish:hover {
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+.responsive {
+    opacity: 1;
+    display: block;
+    width: repeat-x;
+    height: 400px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-ul {
-    list-style: none;
-    padding: 0;
+.container:hover .image {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: violet;
+    color: whitesmoke;
+    font-size: 24px;
+    padding: 16px 32px;
+}
+.text2 {
+    background-color: yellow;
+    display: block;
+    color: black; 
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/*Responsive Img Second one */
+.container2 {
+  position: relative;
+  width: repeat-x;
+  height: 400px;
+}
+.responsive-img {
+  opacity: 1;
+  display: block;
+  width: repeat-x;
+  height: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container2:hover .responsive-img {
+  opacity: 0.3;
+}
+.container2:hover .middle2 {
+  opacity: 1;
+}
+.title {
+  background-color: purple;
+  color: white;
+  font-size: 24px;
+  padding: 16px 32px;
+}
+.text3 {
+    background-color: tan; 
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/* GLOWING TEXT */
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/* Book Cover CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Set a style for the submit button */
+.bookimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.container3 {
+  background-image: url("Images/Book Cover Sons of Roark.png");
+  min-height: 600px;
+  padding-bottom: 100px;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  position: relative;
+}
+.description {
+    background-color: rgba(0, 0, 0, 0.799);
+    color: whitesmoke;
+    display: block;
+}
+/* bottom Footer CSS */
+
+.bottombanner {
+  padding-top: 100px; 
+}
+.bottomnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+.bottombanner .b-banner:hover {
+    background-color: blue;
+}
+.bottombanner .b-banner {
+    background-color: red;
+    color: white;
+    display: block;
+    font-size: 26px;
+}
+.b-logo {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    display: block;
+}
+
+/* CSS Book Contest Bar */
+
+.book-contest-bar {
+    background-color: red;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 24px;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 a:hover {
-    background-color: red;
     text-decoration: underline;
+    background-color: blue;
 }
-.links.for.home {
-    background-color: rgba(0, 0, 0, 0.849);
-    display: inline-block;
-    margin: 1px;      
+
+/* Responsive Images and Nav Bar */
+
+@media screen and (max-width: 959px) {
+    .container {
+        width: 100%;
+    }
+    .responsive, .responsive-img2 {
+        width: 100%;
+    }
+    .book-contest-bar {
+        width: 100%;
+    }
+    .responsive {
+        width: 100%;
+    }
 }
-.main-title-text .main-title {
-    background: rgba(255, 0, 0, 0.658);
-    font-size: 80px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+/* CSS for Nav Bar */
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.767);
 }
-.description p {
-    background-color: rgba(0, 0, 0, 0.671);
-    color: whitesmoke;
-    border: 1px solid yellow; 
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 959px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
     display: block;
-    font-size: 28px;
+  }
 }
-.first-header {
-    background-color: rgba(255, 255, 0, 0.603);
-    display: inline;
-    border-radius: 10px;
-    margin: 10px;
-    position: relative;
+
+@media screen and (max-width: 959px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-bottom: 5px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 }
-.footer-banner {
-    background-color: rgba(10, 248, 10, 0.76);
-    display: inline-block;
-    font-size: 20px;
-}
-.home .book-contest-bar {
-    background-color: rgba(255, 0, 0, 0.856);
-    display: inline-block;
-    width: 1024px;
-}
-.float-img {
-    float: left;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    padding: 2px; 
-}
+
