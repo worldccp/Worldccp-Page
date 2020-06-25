@@ -142,7 +142,7 @@ body {
     float: left;
 }
 .p1 {
-    position: absolute;
+    right: right;
     font-size: 10px;
     top: 40px;
     right: 20px;
@@ -153,7 +153,7 @@ body {
     display: block;
 }
 .p2 {
-    position: absolute;
+    float: right;
     font-size: 10px;
     top: 30px;
     right: 20px;
@@ -164,7 +164,7 @@ body {
     display: block;
 }
 .p3 {
-    position: absolute;
+    float: right;
     font-size: 10px;
     top: 20px;
     right: 20px;
@@ -175,7 +175,7 @@ body {
     display: block;
 }
 .p4 {
-    position: absolute;
+    float: right;
     font-size: 10px;
     top: 10px;
     right: 20px;
