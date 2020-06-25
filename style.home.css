@@ -133,23 +133,21 @@ body {
   padding-bottom: 100px;
 }
 .middle3 {
-  float: left;
-  width: 25%;
+  flex: 50%;
   padding: 5%;
 }
-.container3::after {
-  content: "";
-  clear: both;
-  display: table;
+.container3 {
+  display: flex;
 }
+
 .responsive-img2 {
   display: block;
   width: repeat-x;
   height: 800px;
 }
 .imgbook {
-    position: relative;
-    float: left;
+  position: relative;
+  float: left;
 }
 
 /* PAYPAL CSS */
