@@ -106,7 +106,7 @@
             </div>
         </div>
 
-    <main>
+    
         <div class="container3">
             <h2 class="glow"> Now Trending "Sons of Roark" Manga - Only $1.99 </h2>
             <img src="Images/outer space stars.jpg" alt="outer space picture" class="responsive-img2"
@@ -136,19 +136,42 @@
             </div>
            
         </div>
-    </main>
-
-           
-
-            
-
-
 
 </body>
     
     
-  
-    
+  <footer>
+      <section class="paypal">
+     <div id="paypal-button-container" style="padding-top: 100px; padding-bottom: 100px;"></div>
+            <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
+                data-sdk-integration-source="button-factory"></script>
+            <script>
+                paypal.Buttons({
+                    style: {
+                        shape: 'pill',
+                        color: 'gold',
+                        layout: 'vertical',
+                        label: 'checkout',
+
+                    },
+                    createOrder: function (data, actions) {
+                        return actions.order.create({
+                            purchase_units: [{
+                                amount: {
+                                    value: '2'
+                                }
+                            }]
+                        });
+                    },
+                    onApprove: function (data, actions) {
+                        return actions.order.capture().then(function (details) {
+                            alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                        });
+                    }
+                }).render('#paypal-button-container');
+            </script>
+    </section>
+
 <nav>
 
     <div class="bottomnav" class="mybottomnav">
@@ -175,5 +198,5 @@
 
 </nav>
     
-    
+</footer> 
 </html>
