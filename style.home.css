@@ -5,7 +5,7 @@ body {
     height: 1024px;
     width: repeat-x;
 }
-.h2 {
+h2 {
     color: whitesmoke;
 }
 .logo {
@@ -169,10 +169,6 @@ body {
   color: whitesmoke;
   display: block;
 }
-/* PAYPAL CSS */
-
-
-
 /* bottom Footer CSS */
 
 .bottombanner {
