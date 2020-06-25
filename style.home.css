@@ -134,10 +134,9 @@ body {
 }
 .middle3 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 55%;
   text-align: left;
-  font-size: 16px;
 }
 .responsive-img2 {
   display: block;
@@ -150,7 +149,7 @@ body {
 }
 .p1 {
     right: right;
-    font-size: 10px;
+    font-size: 16px;
     top: 40px;
     right: 20px;
     padding-left: 20px;
