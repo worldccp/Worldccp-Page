@@ -132,22 +132,10 @@ body {
   height: 400px;
   padding-bottom: 100px;
 }
-.middle3 {
-  flex: 50%;
-  padding: 5%;
-}
-.container3 {
-  display: flex;
-}
-
 .responsive-img2 {
   display: block;
   width: repeat-x;
   height: 800px;
-}
-.imgbook {
-  position: relative;
-  float: left;
 }
 
 /* PAYPAL CSS */
