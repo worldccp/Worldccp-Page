@@ -134,7 +134,9 @@ body {
 }
 .middle3 {
   position: absolute;
-  float: left;
+  top: 50%;
+  left: 50%;
+  text-align: left;
 }
 .responsive-img2 {
   display: block;
