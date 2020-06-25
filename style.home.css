@@ -18,6 +18,9 @@ body {
     width: repeat-x;
     height: 400px;
 }
+.publish {
+    color: red;
+}
 .responsive {
     opacity: 1;
     display: block;
