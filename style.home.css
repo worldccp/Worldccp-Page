@@ -164,7 +164,11 @@ body {
   width: repeat-x;
   height: 800px;
 }
-
+.description {
+    background-color: rgba(0, 0, 0, 0.799);
+    color: whitesmoke;
+    display: block;
+}
 /* PAYPAL CSS */
 
 .paypal {
