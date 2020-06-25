@@ -142,6 +142,7 @@ body {
 
 /* Set a style for the submit button */
 .bookimg {
+  text-align: center;
   background-color: #4CAF50;
   color: white;
   padding: 16px 20px;
