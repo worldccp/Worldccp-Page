@@ -134,9 +134,7 @@ body {
 }
 .middle3 {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
+  float: left;
 }
 .responsive-img2 {
   display: block;
@@ -190,6 +188,12 @@ body {
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.799);
     display: block;
+}
+
+/* PAYPAL CSS */
+
+.paypal {
+    padding-top: 100px;
 }
 
 /* bottom Footer CSS */
