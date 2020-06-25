@@ -150,9 +150,8 @@ body {
 }
 .p1 {
     position: absolute;    
-    right: 120px;
-    left: 50%;
-    top: 50%;
+    top: 8px;
+    right: 16px;
     font-size: 16px;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.799);
