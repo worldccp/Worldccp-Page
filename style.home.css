@@ -21,8 +21,12 @@ body {
     width: repeat-x;
     height: 400px;
 }
-.publish a {
+.publish {
     color: red;
+    background-color: whitesmoke;
+}
+.publish:hover {
+    text-decoration: underline;
     background-color: whitesmoke;
 }
 .responsive {
