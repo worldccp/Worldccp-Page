@@ -135,7 +135,7 @@ body {
 .middle3 {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 75%;
   text-align: left;
 }
 .responsive-img2 {
@@ -151,39 +151,6 @@ body {
     right: right;
     font-size: 10px;
     top: 40px;
-    right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.799);
-    display: block;
-}
-.p2 {
-    float: right;
-    font-size: 10px;
-    top: 30px;
-    right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.799);
-    display: block;
-}
-.p3 {
-    float: right;
-    font-size: 10px;
-    top: 20px;
-    right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.799);
-    display: block;
-}
-.p4 {
-    float: right;
-    font-size: 10px;
-    top: 10px;
     right: 20px;
     padding-left: 20px;
     padding-right: 20px;
