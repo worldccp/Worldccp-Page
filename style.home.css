@@ -159,18 +159,17 @@ body {
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
+  padding-bottom: 100px;
   position: relative;
 }
 .description {
-    background-color: rgba(0, 0, 0, 0.799);
-    color: whitesmoke;
-    display: block;
+  background-color: rgba(0, 0, 0, 0.799);
+  color: whitesmoke;
+  display: block;
 }
 /* PAYPAL CSS */
 
-.paypal {
-    padding-top: 100px;
-}
+
 
 /* bottom Footer CSS */
 
