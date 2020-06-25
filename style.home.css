@@ -140,16 +140,17 @@ body {
 * {
   box-sizing: border-box;
 }
-.bottomnav {
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.767);
-}
+
+/* Add styles to the form container */
+
+
 /* Set a style for the submit button */
 .bookimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  background-color: #4CAF50;
   color: white;
   border: none;
   cursor: pointer;
@@ -158,23 +159,32 @@ body {
 .container3 {
   background-image: url("Images/Book Cover Sons of Roark.png");
   min-height: 600px;
+  padding-bottom: 100px;
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
-  padding-bottom: 100px;
   position: relative;
 }
 .description {
-  background-color: rgba(0, 0, 0, 0.799);
-  color: whitesmoke;
-  display: block;
+    background-color: rgba(0, 0, 0, 0.799);
+    color: whitesmoke;
+    display: block;
 }
+/* PAYPAL CSS */
+
+.paypal {
+    padding-top: 100px;
+}
+
 /* bottom Footer CSS */
 
 .bottombanner {
   padding-top: 100px; 
 }
-
+.bottomnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.767);
+}
 .bottombanner .b-banner:hover {
     background-color: blue;
 }
