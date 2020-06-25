@@ -150,8 +150,6 @@ body {
 }
 .p1 {
     float:right;
-    top: 8px;
-    right: 100px;
     font-size: 16px;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.799);
