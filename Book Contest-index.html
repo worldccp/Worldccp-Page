@@ -41,6 +41,7 @@
             <div class="topnav" id="myTopnav">
                 <p class="logo">World Class Comics</p>
                 <a href="index.html" class="active">Home</a>
+                <a href="Publishing-index.html">Publishing</a>
                 <a href="Book Contest-index.html">Contest</a>
                 <div class="dropdown">
                     <button class="dropbtn">Menu
@@ -166,67 +167,15 @@
 
       
       <section class="book"> 
-          <h2 class="ocbook"> Registration Fee for OC Book Contest</h2>
-          <div id="paypal-button-container2"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'pay',
           
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '20'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-      }
-  }).render('#paypal-button-container');
-</script>
-
-      </section>
+          <h2 class="ocbook"> Registration Fee for OC Book Contest</h2>
+          
+           </section>
       
       <section class="illustration"> 
-          <h2 class="ocillustration"> Registration Fee OC Illustration Contest $10</h2>
-          <div id="paypal-button-container3"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'pay',
           
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '10'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-      }
-  }).render('#paypal-button-container');
-</script>
-
+          <h2 class="ocillustration"> Registration Fee OC Illustration Contest $10</h2>
+                    
       </section>
 <nav>
 
