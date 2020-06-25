@@ -20,6 +20,7 @@ body {
 }
 .publish {
     color: red;
+    background-color: whitesmoke;
 }
 .responsive {
     opacity: 1;
