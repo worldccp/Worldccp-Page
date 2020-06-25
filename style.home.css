@@ -133,11 +133,9 @@ body {
   padding-bottom: 100px;
 }
 .middle3 {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  text-align: center;
-  padding-left: 80px;
+  float: left;
+  width: 25%;
+  padding: 5%;
 }
 .responsive-img2 {
   display: block;
@@ -147,13 +145,6 @@ body {
 .imgbook {
     position: relative;
     float: left;
-}
-.p1 {
-    float:right;
-    font-size: 16px;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.799);
-    display: block;
 }
 
 /* PAYPAL CSS */
