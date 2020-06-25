@@ -138,7 +138,7 @@ body {
   height: 800px;
 }
 .imgbook {
-    position: absolute;
+    position: relative;
     float: left;
 }
 .description {
