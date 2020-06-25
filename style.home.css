@@ -149,9 +149,9 @@ body {
     float: left;
 }
 .p1 {
-    position: absolute;    
+    float:right;
     top: 8px;
-    right: 276px;
+    right: 100px;
     font-size: 16px;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.799);
