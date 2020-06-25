@@ -131,14 +131,7 @@ body {
 }
 
 /* Add styles to the form container */
-.bookimg {
-  position: absolute;
-  right: 0;
-  margin: 20px;
-  max-width: 300px;
-  padding: 16px;
-  background-color: white;
-}
+
 
 /* Set a style for the submit button */
 .bookimg {
