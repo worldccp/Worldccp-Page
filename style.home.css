@@ -141,9 +141,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Add styles to the form container */
-
-
 /* Set a style for the submit button */
 .bookimg {
   display: block;
@@ -170,12 +167,6 @@ body {
     color: whitesmoke;
     display: block;
 }
-/* PAYPAL CSS */
-
-.paypal {
-    padding-top: 100px;
-}
-
 /* bottom Footer CSS */
 
 .bottombanner {
