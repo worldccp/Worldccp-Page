@@ -133,38 +133,24 @@
     
     
   <footer>
-      
-      <section class="paypal">
-     <div id="paypal-button-container" style="padding-top: 100px; padding-bottom: 100px;"></div>
-            <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
-                data-sdk-integration-source="button-factory"></script>
-            <script>
-                paypal.Buttons({
-                    style: {
-                        shape: 'pill',
-                        color: 'gold',
-                        layout: 'vertical',
-                        label: 'checkout',
-
-                    },
-                    createOrder: function (data, actions) {
-                        return actions.order.create({
-                            purchase_units: [{
-                                amount: {
-                                    value: '2'
-                                }
-                            }]
-                        });
-                    },
-                    onApprove: function (data, actions) {
-                        return actions.order.capture().then(function (details) {
-                            alert('Transaction completed by ' + details.payer.name.given_name + '!');
-                        });
-                    }
-                }).render('#paypal-button-container');
-            </script>
-    </section>
-
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="DGS5WULQ3MXJA">
+<table>
+<tr><td><input type="hidden" name="on0" value="Select an Option Below">Select an Option Below</td></tr><tr><td><select name="os0">
+<option value="Sons of Roark: Welcome to Earth (Digital copy)">Sons of Roark: Welcome to Earth (Digital copy) $1.99 USD</option>
+<option value="Sons of Roark: Welcome to Earth (paperback copy)">Sons of Roark: Welcome to Earth (paperback copy) $5.99 USD</option>
+<option value="Seasons: Beautifully Me (Digital copy)">Seasons: Beautifully Me (Digital copy) $4.99 USD</option>
+<option value="Seasons: Beautifully Me (Hardcover copy)">Seasons: Beautifully Me (Hardcover copy) $14.99 USD</option>
+<option value="Illustration Contest Fee">Illustration Contest Fee $10.00 USD</option>
+<option value="Book Contest Fee">Book Contest Fee $20.00 USD</option>
+<option value="Poetry Contest Fee">Poetry Contest Fee $20.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 <nav>
 
     <div class="bottomnav">
