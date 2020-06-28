@@ -206,7 +206,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    background-color: red;
+    background-color: lightblue;
 }
 
 /* Responsive Images and Nav Bar */
