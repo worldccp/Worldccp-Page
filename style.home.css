@@ -114,6 +114,7 @@ h2 {
 
 /* GLOWING TEXT */
 body {
+  background-color: green;
   font-family: cursive;
 }
 
