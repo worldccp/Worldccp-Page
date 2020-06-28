@@ -113,7 +113,6 @@ h2 {
 
 /* GLOWING TEXT */
 body {
-  background-color: black;
   font-family: cursive;
 }
 
@@ -207,7 +206,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    background-color: blue;
+    background-color: pink;
 }
 
 /* Responsive Images and Nav Bar */
@@ -233,7 +232,7 @@ body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: blue;
 }
 
 .topnav a {
