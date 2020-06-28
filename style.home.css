@@ -16,8 +16,6 @@ h2 {
     font-size: 24px;
 }
 
-
-
 /* First Img CSS */
 
 .container {
@@ -236,7 +234,7 @@ body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: green;
 }
 
 .topnav a {
