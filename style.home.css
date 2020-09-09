@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: black;
     background-size: cover;
     text-align: center; 
     height: 1024px;
@@ -114,7 +114,6 @@ h2 {
 
 /* GLOWING TEXT */
 body {
-  background-color: whitesmoke;
   font-family: cursive;
 }
 
