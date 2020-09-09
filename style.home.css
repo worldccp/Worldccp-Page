@@ -234,13 +234,13 @@ body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: red;
+  background-color: blue;
 }
 
 .topnav a {
   float: right;
   display: block;
-  color: blue;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
