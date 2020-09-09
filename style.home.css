@@ -234,7 +234,7 @@ body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: blue;
 }
 
 .topnav a {
@@ -249,7 +249,7 @@ body {margin:0;font-family:Arial}
 
 .active {
   background-color: #4CAF50;
-  color: black;
+  color: white;
 }
 
 .topnav .icon {
